@@ -646,24 +646,6 @@ public class User implements AbstractUser{
         return movieRecommendations_N;
     }
    
-    //@Override
-    public boolean equals(Object user2) {
-        if (user2 == null) {
-            return false;
-        }
-        if (!User.class.isAssignableFrom(user2.getClass())) {
-            return false;
-        }
-        
-        final User other = (User) user2;
-        if ((this.userName == null) ? (other.userName != null) : !this.userName.equals(other.userName)) {
-            return false;
-        }
-        if (this.userAge != other.userAge) {
-            return false;
-        }
-        return true;
-    }
     /*public boolean equals(Object user2){
         boolean isEqual = false;
         if ((user2 != null) && (user2 instanceof User)){
