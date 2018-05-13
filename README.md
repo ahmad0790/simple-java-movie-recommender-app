@@ -1,4 +1,4 @@
-# Comp170-Java_Movie_Recommender
-This is a Java Program for the final project in Loyola's Comp 170 - Introduction to Object Oriented Programming Class. The final code to run a movie recommender and database.
+#Simple Movie Recommender in Java
+This is a Java Program for the final project which reads in Movie Data from Kaggle and stores movie information using efficient data structures and provides recommendations based on simple keyword matching.
 
-Author: Ahmad Khan (Interface provided by Adam Krauss)
+Author: Ahmad Khan
